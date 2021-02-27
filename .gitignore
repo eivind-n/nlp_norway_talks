@@ -1,0 +1,10 @@
+# data
+data/*
+
+# Pycharm
+.idea/*
+
+# Jupyter
+notebooks/.ipynb_checkpoints/*
+
+__pycache__/*
