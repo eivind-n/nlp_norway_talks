@@ -29,8 +29,8 @@ def main() -> None:
     print(f"{len(df)} full records.")
 
     # Limit dataset for faster iterations during testing
-    # N = 10000
-    # df = df.loc[:N, :]
+    N = 10000
+    df = df.loc[:N, :]
 
     # Split train/test
     X_train, X_test, y_train, y_test = train_test_split(
